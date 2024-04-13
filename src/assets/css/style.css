@@ -1,0 +1,1794 @@
+/* Activities  Section Booking*/
+.fitness_content_2 .squash_booking_card{
+    width: 100%;
+    max-width: 388px;
+    margin-right: auto;
+    border-radius: 0;
+    border: none;
+}
+.fitness_content_2 .card_booking_info a{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #326C52;
+    text-decoration: none;
+}
+.fitness_content_2 .card_booking_info a:hover{
+    color: #e1bc54;
+}
+.fitness_content_2 .card_booking_info h5{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+/* Addition Title  */
+.fitness_content .fitness_content_addition h3{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000
+}
+.fitness_content .fitness_content_addition p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #555555;
+}
+/* Accordion Tab */
+.fitness_content .tab_card p,
+.fitness_content .tab_card h4{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+.fitness_content .accordion_tabs .tab_card .card_desc p{
+    padding: 0;
+    padding-bottom: 5px;
+}
+.fitness_content .tab_card_addition{
+    height: auto;
+}
+.fitness_content .card_desc{
+    padding: 10px 19px;
+}
+
+
+.finess_accordion .accordion-body{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+    font-family: 'Inter';
+}
+.finess_accordion .accordion-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+
+/* Fitness Banner */
+.home_top_section.inner_banner{
+    min-height: 350px;
+    /* display: flex;
+    justify-content: center;
+    align-items: end; */
+    padding-bottom: 52px;
+    background-image: url(../images/fitness_bg.png);
+}
+.inner_banner .top_sec {
+    left: 0;
+    top: 200px;
+    right: 0;
+    max-width: 100%;
+}
+.home_top_section::before{
+    display: none;
+}
+.vita_fitness h4{
+    font-family: 'Caveat';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #326C52;
+    margin-bottom: 9px;
+}
+.vita_fitness h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+/* Fitness First Section */
+.fitness_content {
+    background-color: #f5f5f5;
+    background-image: url(../images/offers/leafs-bg.png);
+    background-size: 360px 563px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 216px 0;
+    padding-bottom: 147px;
+}
+.fitness_content_img{
+    position: relative;
+}
+.fitness_content_img:after{
+    content: "";
+    width: 347px;
+    height: 284px;
+    background-image: url(../images/fitness/fitness_left_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: absolute;
+    left: -114px;
+    top: -138px;
+    z-index: 1;
+}
+
+.fitness_content_img img{
+    width: 100%;
+    max-width: 450px;
+    z-index: 2;
+    position: relative;
+    object-fit: cover;
+}
+.fitness_content_detail {
+    width: 100%;
+    max-width: 550px;
+    margin-right: auto;
+}
+
+.fitness_content_detail h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #121212;
+    margin-bottom: 30px;
+}
+.fitness_content_detail p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #555555;
+    margin-bottom: 40px;
+}
+.accordion_tabs{
+    margin-top: 10px;
+}
+
+/* Fitness Second Section */
+.fitness_content_2{
+background-color: #E7E4C9;
+background-image: url(../images/fitness/milon_bg.png);
+background-size: 360px 563px;
+background-repeat: no-repeat;
+background-position: bottom left;
+padding: 100px 0;
+}
+.fitnesss_content_2 .fitnesss_content_detail {
+    width: 100%;
+    max-width: 550px;
+    margin-right: auto;
+}
+.fitness_content_2 .fitness_content_img:after {
+    bottom:-85px;
+    top: auto;
+}
+.fitness_content_2 .fitness_content_detail h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #121212;
+    margin-bottom: 30px;
+}
+.fitness_content_2 .fitness_content_detail p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #555555;
+    margin-bottom: 60px;
+} 
+.fitness_content_2 .milon_list h4{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #121212;
+    margin-bottom: 30px;
+}
+.fitness_content_2 .milon_list_info{
+    padding-left:43px ;
+}
+.fitness_content_2 .milon_list_info .list{
+    list-style-type: none;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #555555;
+    margin-bottom: 18px;
+    position: relative;
+}
+.fitness_content_2 .milon_list_info .list:before{
+    content: "";
+    background-image: url(../images/fitness/ul-dots.png);
+    background-size: contain;
+    width: 27px;
+    height: 26px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -40px;
+    top: 0;
+}
+
+/* Accordion TAB  Start */
+.fitness_content .accordion_tabs{
+    position: relative;
+}
+.fitness_content .tab_card{
+    width: 100%;
+    max-width: 310px;
+    background-color: #F7ECC6;
+    border: none;
+    border-left: 4px solid #FEBA02;
+    position: relative;
+    margin-bottom: 20px;
+}
+.fitness_content  .accordion-item:first-of-type,
+.fitness_content  .accordion-item:last-of-type,
+.fitness_content  .tab_card .accordion-item:last-of-type .accordion-button.collapsed,
+.fitness_content  .tab_card .accordion-collapse,
+.fitness_content .tab_card .accordion-button{
+    border-radius: 0!important;
+}
+.fitness_content .tab_card .accordion-button:not(.collapsed) {
+    color: #000000;
+    /* background-color: #ffffff; */
+    box-shadow: unset;
+    background: #F7ECC6;
+}
+.fitness_content .tab_card.close_tabs{
+    width: 310px;
+    height: 50px;
+    background-color: #ffffff;
+    border-left: 4px solid #326C52;
+    position: relative;
+}
+
+.fitness_content .tab_card .accordion-button:not(.collapsed)::after{
+    content: "";
+    background-color: #326C52;
+    background-image: none;
+    height: 2px;
+    width: 20px;
+    position: absolute;
+    right:26px;
+    top:23px
+}
+.fitness_content .tab_card  .accordion-button::after{
+    content: "";
+    background-color: unset;
+    background-image: url(../images/fitness/open_icon.png);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right:26px;
+    top:16px
+}
+.fitness_content .card_title{
+    height: 34px;
+    padding: 15px 19px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.fitness_content .tab_card p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+    padding: 30px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Caveat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h5,h6,p{
+    font-family: 'Inter';
+}
+
+/* header */
+.vita_header .nav-item .nav-link{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;text-align: right;
+    text-transform: uppercase;
+    color: #F4F4F4 !important;
+    transition: all 1s;
+    position: relative;
+}
+.vita_header .navbar-light .navbar-nav .show>.nav-link:hover{
+    color: #326C52!important;
+}
+
+.vita_header .nav-link:hover:before,
+.vita_header .active:before{
+    content: "";
+    background-color: #326C52;
+    border-radius: 3px;
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: calc(40% - 8px);
+}
+.vita_header .navbar-nav .nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+.vita_header .navbar-nav .dropdown {
+    position: relative;
+}
+.vita_header .navbar-nav  .dropdown-toggle::after {
+    content: "";
+    background-image: url(../images/chevron-down.png);
+    width: 24px;
+    height: 18px;
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+.vita_header .navbar-nav .dropdown-menu li a{
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000;
+}
+.vita_header .navbar-nav .dropdown-menu li:hover a{
+    color: #fff!important;
+    background-color: #326c52;
+}
+.vita_header  .dropdown-menu {
+    position: absolute;
+    left: 20px!important;
+    width: 150px;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    border-radius:0;
+}
+
+
+/* top_sec */
+.hero_section{ overflow-x: hidden;}
+.home_top_section{background-color: #E1BC54;position: relative; background-image: url('../images/hero_bg_img.png'); background-repeat: no-repeat; background-position: left bottom; background-size: contain;}
+.home_top_section::before{width: 100%; height: 50px; background-color: white; content: ""; position: absolute; bottom: 0; left: 0; right: 0;z-index: 1;}
+.hero_image{position: relative; z-index: 2;}
+.top_sec {
+    max-width: 633px;
+    position: absolute;
+    top: 20%;
+    left: calc(30% - 260px);
+}
+/* .top_sec {
+    max-width: 633px; width: 100%;
+    padding: 100px 0;
+} */
+.top_sec h4{
+    font-family: 'Caveat';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #326C52;
+}
+.top_sec h2{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100px;
+    color: #FFFFFF;
+    margin: 0 0 25px 0;
+    padding: 0;
+    /* text-shadow: 0px 4px 4px #00000040; */
+}
+.top_sec p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    color: #F4F4F4;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+.vita_btn .btn_style,
+.vita_btn .btn_style-2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: all 0.7s;
+    background-color: #326C52;
+    padding: 20px 5px;
+    width: 100%;
+    max-width: 255px;
+    border-radius: 0;
+    position: relative;
+}
+.vita_btn .btn_style-2{
+    background-color: #E1BC54!important;
+}
+.vita_btn .btn_style-2:after,
+.vita_btn .btn_style:after{
+    content: "";
+    border: 1px solid #fff;
+    display: block;
+    height: 100%;
+    width: calc(100% + 3px);
+    background-color: transparent;
+    position: absolute;
+    top: -7px;
+    left: -7px;
+}
+.vita_btn .btn_style:hover{
+    color: #D7D2A5;
+    background-color: #002f1a;
+}
+.vita_btn .btn_style-2:hover{
+    color: #ffffff;
+    background-color: #002f1a !important;
+}
+.vita_btn .btn_style-2:hover:after,
+.vita_btn .btn_style:hover:after{
+    left: 0;
+    top:0;
+}
+
+.bk_img {
+    background-image: url(../images/hero_banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    background-color: #E1BC54;
+    min-height: 900px;
+    position: relative;
+    z-index: 20;
+   /* top: -100px;*/
+    padding-top: 120px;
+}
+/* header.vita_header {
+    z-index: 22;
+    position: absolute;
+    width: 100%;
+} */
+
+.bg_banner{
+    position: relative;
+}
+
+.bg_banner_img{
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    max-width: 774px;
+    min-height: 850px;
+}
+/* About Section */
+.about_sec {
+    padding: 100px 0;
+    /* background-image: url(../images/about/about_banner.png);
+    background-size: 1480px 700px;
+    background-repeat: no-repeat;
+    background-position: 40% 190px; */
+}
+.vita_title{
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #326C52;
+    margin-bottom: 9px;
+}
+.vita_about{
+    width:100%;
+    max-width:700px;
+    margin: 0 auto;
+}
+.vita_about h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #121212;
+    margin: 0 0 32px 0;
+}
+.vita_about p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    color: #555555;
+    margin: 0 0 37px 0;
+}
+.about_img_card {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 5;
+}
+.about_img_card:after {
+    content: "";
+    width: 100%;
+    max-width: 850px;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+    background: linear-gradient(180deg, rgba(50, 108, 82, 0) 0%, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+.about_img_card:hover .about_content{
+    bottom: 0;
+}
+.about_content {
+    position: absolute;
+    width: 100%;
+    bottom: -195px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 5;
+    padding: 0 35px;
+    padding-top: 30%;
+    padding-bottom: 32px;
+    transition:bottom .4s ease-in-out ;
+    background: linear-gradient(180deg, rgba(50, 108, 82, 0) 0%, #326C52 100%);
+}
+.about_content h5{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+.about_content p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #EEEEEE;
+    margin-bottom: 23px;
+}
+.about_content a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #E1BC54;
+}
+.about_content a:hover{
+    color: #E1BC54;
+}
+.img5_col{
+    position: relative;
+}
+.about_items{
+    position: relative;
+ }
+ .about_items:before{
+     content: "";
+     width: 388px;
+     height:383px;
+     background-image: url(../images/leaf-1.png);
+     background-size: cover;
+     background-position: bottom;
+     background-repeat: no-repeat;
+     position: absolute;
+     left: -125px;
+     top: -138px;
+ }
+ .about_items:after{
+     content: "";
+     width: 280px;
+     height:271px;
+     background-image: url(../images/leaf-2.png);
+     background-size: cover;
+     background-position: bottom;
+     background-repeat: no-repeat;
+     position: absolute;
+     right: -125px;
+     bottom: -60px;
+ }
+
+/* Offers Section */
+
+.offers_sec{
+    background-image: url(../images/offers/leafs-bg.png);
+    background-size: 369px 563px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.offers_sec{
+    padding: 100px 0;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    position: relative;
+    background-color:  #E7E4C9;
+}
+.offers_sec .image_top{
+    padding-left: 0;
+}
+.offers_gellery img{
+    width: 100%;
+    max-width: 650px;
+    margin-top: -150px;
+}
+.vita_offers{
+    width: 100%;
+    max-width: 715px;
+    padding-left: 2.5rem;
+}
+.vita_offers h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #121212;
+    margin: 0 0 32px 0;
+}
+.vita_offers p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    color: #555555;
+    margin: 0 0 37px 0;
+}
+.offers_activites {
+    padding: 40px 0;
+    display: flex;
+}
+.offers_activites .card {
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+    margin-right: 15px;
+    transition: all .4s linear;
+}
+.offers_activites .card-img-top{
+    border-radius: 0!important;
+}
+.offers_activites .card:nth-child(2n) {
+    margin-top: 40px;
+}
+.offers_activites .card:hover {
+    margin-top: 5px;
+}
+.offers_activites .card:hover:nth-child(2n) {
+    margin-top: 45px;
+}
+.offers_activites .card-body{
+    padding: 15px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.offers_activites .card-body a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+.offers_activites .card-body a:hover{
+    color: #326C52;  
+}
+
+/* Customer Section */
+.customers_sec{
+    padding: 80px 0;
+    background-color: #f5f5f5;
+}
+
+.customers_sec .vita_customers{
+    width: 100%;
+    max-width: 715px;
+    margin: 0 auto;
+    padding-left: 2.5rem;
+}
+.customers_sec .vita_customers h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #121212;
+    margin: 0 0 32px 0;
+}
+
+.customers_sec .customer_items{
+    padding: 40px;
+    margin: 0 20px;
+    background-image: url(../images/customer-bg.png);
+    background-size: 144px 246px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    box-shadow: -1px 1px 4px 0px #00000040;
+    background-color: #fff;
+}
+.customers_sec .customer_items img{
+    width: 100%;
+    max-width: 60px;
+    padding-bottom: 18px;
+}
+.customers_sec .customer_items p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+    margin-bottom: 18px;
+}
+.customers_sec .customer_items h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #121212;
+}
+.customer_content{
+   position: relative;
+}
+.customer_content:before{
+    content: "";
+    width: 388px;
+    height:383px;
+    background-image: url(../images/leaf-1.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -125px;
+    top: -20px;
+}
+.customer_content:after{
+    content: "";
+    width: 280px;
+    height:271px;
+    background-image: url(../images/leaf-2.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -125px;
+    bottom: -60px;
+}
+.customer_content .owl-carousel .owl-stage-outer {
+    padding: 20px 0 !important;
+}
+ 
+.customer_content .owl-nav {
+    background-color: #326C52;
+    max-width: 160px;
+    position: relative;
+    margin: 5px auto;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customer_content .owl-nav::before {
+    content: "SCROLL";
+    position: absolute;
+    left: 45px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.customer_content .owl-nav button{
+ width: 40px; height: 40px;
+}
+.customer_content .owl-nav button:hover i{
+   color:#E1BC54!important;
+}
+
+
+/* Classes Section  & News Section*/
+.bk_imgnews,
+.bk_imgclass{
+    background-image: url(../images/class_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bk_imgclass{
+    background-color: #383939;
+}
+.bk_imgnews{
+    background-color: #E3E0C0;
+}
+.vitaclasses{
+    width: 100%;
+    max-width: 580px;
+    margin: 80px auto;
+}
+.vitanews{
+    width: 100%;
+    max-width: 550px;
+    margin: 80px auto;
+}
+
+.vita_news h2,
+.vita_classes h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+.vita_classes h2{
+   color: #FFFFFF;
+}
+.vita_news h2{
+    color: #121212;
+}
+
+.vitaclasses .card_tab{
+    padding: 25px 24px;
+    padding-right: 16px;
+    height: 100%;
+    max-height: 100px;
+    background-color: #E7E4C9;
+    border-left: 5px solid #E1BC54;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.vitaclasses .card_tab h5{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.vitaclasses  .card_tab .card_link i{
+    float: right;
+    font-size: 24px;
+}
+.vitaclasses .card_tab .card_link{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.vitaclasses .card_tab a:hover i{
+    color: #E1BC54;
+}
+
+.vitanews .card_tab{
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-left: 5px solid #E1BC54;
+    margin-bottom: 15px;
+}
+.vitanews .card_tab h5{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #121212;
+}
+.vitanews .card_tab .card_link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #326C52;
+    text-decoration: none;
+    }
+.vitanews .card_tab .card_link:hover{
+    color: #E1BC54;
+
+}
+.vitaclasses .vita_btn{
+    padding-top: 45px;
+}
+.vitanews .vita_btn{
+    padding-top: 30px;
+}
+.traning_detail .vita_btn .btn_style:hover,
+.vitaclasses .vita_btn .btn_style:hover,
+.vitanews .vita_btn .btn_style:hover{
+    background-color: #e1bc54;
+    color: #fff;
+}
+
+/* join */
+.join_sec{
+    padding: 100px 0;
+    background-color:  #326C52;
+}
+.vitajoin{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.vitajoin h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 0 30px 0;
+}
+.vitajoin p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    color: #EEEEEE;
+    margin: 0 0 20px 0;
+}
+.vitajoin .vita_title{
+    color: #E1BC54!important;
+}
+
+/* Fooeter Section */
+.footer{
+    padding: 70px 0;
+    background-color: #fff;
+    position: relative;
+    padding-bottom: 0px;
+}
+.footer .footerlogo{
+    width: 100%;
+    max-width: 213px;
+    margin-bottom: 43px;
+}
+.footer{
+    background-image: url(../images/footer_bg_1.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+.footer_banner{
+    background-image: url(../images/footer_bg_2.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+.footer .social_icons .icons{
+    width: 54px;
+    height: 54px;
+    padding: 18px 5px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #326C52;
+    color: #E1BC54;
+     margin-right: 20px;
+}
+.footer .social_icons .icons i{
+    font-size: 20px;
+}
+.footer .social_icons .icons:hover{
+    color: #326C52;
+}
+.footer .social_icons .icons:hover{
+    background-color: #e1bc54;
+}
+.footer .copyright{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000; 
+    margin: 40px 0;
+}
+.footer_menu h5{
+    margin-bottom: 13px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.footer_menu li a{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    color: #000000;
+}
+.footer_menu.footer_nav ul {
+    padding-left: 0;
+}
+
+.footer_menu.details li {
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.footer_menu.details li img{
+    position: absolute;
+    left: -17px;
+    top: 10px;
+    width: 18px;
+}
+.footer_menu ul{
+    padding-left: 10px;
+}
+.footer_menu li{
+    list-style-type: none;
+    display: block;
+}
+
+.footer_menu li a{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    text-decoration:none;
+}
+.footer_menu li a:hover{
+    color:  #326C52;
+}
+.footer_info{
+    width: 100%;
+    max-width: 320px;
+    margin-right:auto;
+}
+.privacydetails{
+    background-color: #EEEEEE;
+    padding: 13px 17px;
+    margin-top: 54px;
+}
+.btn_privacy{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000!important;
+    padding: 6px 10px;
+    background-color: #E1BC54 !important;
+}
+.infodetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.infodetails .privacycontent{
+    width: 100%;
+    max-width: 1000px;
+    padding-right: 33px;
+}
+.infodetails .privacycontent h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+.infodetails .privacycontent p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.contactp_vitajoin{
+    max-width: 1015px;
+}
+.contact_section{
+    background: #f5f5f5;
+    padding: 90px 0;
+    background-image: url(../images/offers/leafs-bg.png);
+    background-size: 360px 563px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.bk_white{
+    background: white;
+}
+.contact_form_sub{
+    padding: 50px 40px;
+}
+.contact_form{
+    background: url(../images/contact_sec_bk.png);
+    height: 100%;
+}
+.contact_section .contact_input{
+    display: flex;
+    justify-content: space-between;
+}
+.contact_section .contact_input input{
+    background-color: #EEEEEE;
+    height: 60px;
+    width: 100%;
+}
+.contact_section .contact_input .input_col{
+    max-width: 280px;
+    width: 100%;
+}
+.contact_section .contact_input input::placeholder{
+    color: #777777;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.contact_section .contact_input .input_col:nth-child(1){
+    margin-right: 10px;
+}
+.contact_section .contact_input .input_col:last-child{
+    margin-left: 10px;
+}
+.contact_section .form-control:focus{
+    border: 1px solid #F6DDAC;
+    box-shadow: none;
+}
+.contact_form h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin: 0 0 20px 0;
+}
+.contact_form p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    max-width: 470px;
+    margin: 0 0 30px 0;
+}
+.form_bottom {
+    display: flex;
+    align-items: center;
+    max-width: 340px;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+}
+.form_bottom h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0;
+}
+.form_bottom .form-check-input{
+    background: #EEEEEE;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+    float: none;
+    border-radius: 0;
+}
+.form_bottom .form-check-input:focus {
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+.form_bottom label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+.contact_form textarea{
+    min-height: 120px;
+    margin: 0 0 20px 0;
+}
+
+.bk_blk{
+    background: #383939;
+}
+.contact_sec_menu{
+    max-width: 380px;
+    margin: 0 auto;
+}
+.contact_sec_menu h5{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0 0 25px 0;
+}
+.contact_sec_menu .menu_link li a{
+    color: #FFFFFF;
+}
+.contact_sec_menu{
+    padding: 50px 20px;
+}
+.contact_sec_menu .menu_link{
+    border-bottom: 1px dashed #626262;
+    padding: 0 0 25px 0;
+    margin: 0 0 35px 0;
+}
+.contact_sec_menu .menu_link li img{
+    display: inline-flex;
+}
+.contact_sec_menu .menu_link li .inner-link{
+    display: inline-flex;
+}
+.contact_sec_menu .menu_link .inner_link{
+    max-width: 190px;
+    display: inline-flex;
+    padding: 0 0px 12px 15px;
+}
+.contact_sec_menu li a{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    color: #000000;
+}
+.contact_sec_menu ul {
+    padding-left: 0;
+}
+
+ .contact_sec_menu li {
+    list-style: none;
+}
+.contact_sec_menu ul{
+    padding-left: 10px;
+}
+
+.contact_sec_menu li a{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-decoration:none;
+}
+.contact_sec_menu li a:hover{
+    color:  #326C52;
+}
+.timimg_list{
+    margin: 30px 0 0 0;
+    padding: 0 !important;
+}
+.timimg_list li{
+    display: flex;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #AFAFAF;
+    padding: 0 0 10px 0 !important;
+}
+.timimg_list_points{
+    width: 100%;
+    max-width: 300px;
+    max-width: 230px;
+    margin-left: auto;
+}
+.form_bottom .form-check-input:checked[type=checkbox] {
+    background-image: url(../images/yellow_check_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.job_opp_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    padding: 24px;
+    margin: 30px 0 0 0;
+    box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.15);
+}
+.job_opp_box h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FEBA02;
+    margin: 0 0 10px 0;
+}
+.job_opp_box p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0;
+}
+.job_opp_box a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px; 
+    text-align: center;
+    text-transform: uppercase;
+    color: #326C52;
+    text-decoration: none;
+}
+/* ///////////////////////////////// */
+.news_card_section{
+    padding: 60px 0;
+    background-color: #f5f5f5;
+}
+.all_news_section{
+    background-image: url(../images/offers/leafs-bg.png);
+    background-size: 360px 563px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.news_card_section .card{
+    padding: 5px;
+    border: 0;
+    margin: 0 0 20px 0;
+    height: 100%;
+    background-color: #fff;
+}
+.news_card_section .card img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.news_card_section .card .card-sub-title{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #FEBA02;
+    margin: 0 0 16px 0;
+}
+.news_card_section .card .card-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #121212;
+    margin: 0 0 8px 0;
+}
+.news_card_section .card .card-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+    margin: 0 0 10px 0;
+}
+.news_card_section .card .card-link{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #326C52;
+    text-decoration: none;
+}
+/* //////////////////////////////////////// */
+.all_news_section h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.news_card_section.all_news_section .card {
+    padding: 0px 12px;
+    justify-content: center;
+    border-left: 5px solid #E1BC54;
+    border-radius: 0;
+}
+/* //////////////////////////////////////////// */
+/* job_section */
+.job_section{
+    text-align: center;
+    padding: 100px 0;
+    background: #F5F5F5;
+    background-image: url(../images/offers/leafs-bg.png);
+    background-size: 360px 563px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.job_section h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    margin: 0 0 50px 0;
+    text-align: center;
+}
+.job_section .card{
+    border: 0;
+    background: #E7E4C9;
+    padding: 50px 10px;
+    height: 380px;
+}
+.job_section .card-body{
+    display: flex;
+    flex-direction: column;
+}
+.job_section .card-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #121212;
+    margin: 0 auto 25px;
+    max-width: 240px;
+}
+.job_section .card .card-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+    margin: 0 auto 35px;
+    max-width: 282px;
+    flex: 1;
+}
+/* /////////////////////////////////////// */
+/* description_section */
+.description_section{
+    padding: 60px 0 0 0;
+    background-color: #f5f5f5;
+}
+.description_section h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    margin: 0 0 90px 0;
+    text-align: center;
+}
+.description_section h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FEBA02;
+    margin: 0 0 15px 0;
+}
+.description_section ul{
+    padding: 0;
+    margin: 0 0 50px 0;
+}
+.description_section ul li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    list-style: none;
+    margin: 0 0 8px 0;
+    display: flex;
+}
+
+.description_contact_section.contact_section{
+    background-color: #f5f5f5;
+    padding: 65px 0;
+}
+.description_contact_section .description_col{
+    width: 100%;
+    max-width: 616px;
+    margin: 0 auto;
+}
+.description_contact_section.contact_section textarea{
+    background-color: #EEEEEE;
+}
+.upload-btn-wrapper {
+    position: relative;
+    margin: 0 20px 0 0;
+  }
+
+.upload-btn-wrapper input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 72%;
+    cursor: pointer;
+}
+.cv_btn{
+    display: flex;
+}
+.cv_btn .btn_style{
+    padding: 20px 50px;
+}
+
+/* ///////////////////////// */
+/* membership_section */
+.membership_section{
+    padding: 150px 0 20px 0;
+    background-color: #f5f5f5;
+}
+.membership_section .member_top_card{
+    background: #E7E4C9;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    padding: 80px 20px;
+}
+.membership_section .member_top_card h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+    margin: 0 0 45px 0;
+}
+.membership_section .member_top_card p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #707070;
+    margin: 0 0 15px 0;
+}
+.membership_section .member_top_card h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #326C52;
+    margin: 40px 0 0 0;
+}
+.membership_section .member_top_card ul{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 380px;
+}
+.membership_section .member_top_card ul li{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #707070;
+    list-style: none;
+    display: flex;
+    padding: 0 0 20px 0;
+}
+.membership_section .member_top_card ul li .member_points{
+    display: inline-flex;
+}
+/* /////////////// */
+.membership_contact_section{
+    background-color: #f5f5f5;
+}
+.membership_contact_section .bg_white{
+    background-color: #fff;
+}
+.membership_form_sub{
+   padding: 100px 50px;
+}
+.membership_form{
+    background: url(../images/contact_sec_bk.png);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 60px rgb(0 0 0 / 10%);
+}
+.membership_form h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin: 0 0 12px 0;
+}
+.membership_form p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+
+.member_input_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.membership_form .member_input-col{
+    width: 100%;
+    max-width: 530px;
+}
+.membership_form .member_input-col:nth-child(1){
+    margin-right: 10px;
+}
+.membership_form .member_input-col:last-child{
+    margin-left: 10px;
+}
+.membership_form .member_input-col input,
+.membership_form .member_input-col .dob_input,
+.membership_form .member_input-col .form-select{
+    background: #EEEEEE;
+    border: 1px solid transparent;
+    height: 60px;
+    width: 100%;
+    text-indent: 15px;
+    text-align: start;
+    padding: 0 15px 0 0;
+}
+.membership_form .member_input-col input:focus,
+.membership_form .member_input-col .dob_input:focus,
+.membership_form .member_input-col .form-select:focus{
+    border: 1px solid #F6DDAC;
+    box-shadow: none;
+}
+.membership_form .member_input-col input::placeholder,
+.membership_form .member_input-col .form-select{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
+.membership_form .form-select-col{
+    position: relative;
+}
+.membership_form .form-select-col::after {
+    position: absolute;
+    right: 20px;
+    top: 26px;
+    content: "";
+    border: 0;
+    background: url(../images/yellow_arrow_down.svg);
+    height: 10px;
+    width: 15px;
+    background-repeat: no-repeat;
+}
+.membership_form .vita_btn {
+    max-width: 170px;
+}
+
+input.dob_input {
+    color: transparent;
+    /* display: block;
+    padding: 10px; */
+    position: relative;
+  }
+  input.dob_input:invalid:before {
+    color: #808080;
+    content: attr(placeholder);
+    pointer-events: none;
+    position: absolute;
+  }
+  input.dob_input:valid,
+  input.dob_input:focus,
+  input.dob_input:active {
+    color: #000;
+  }
+  input.dob_input:valid:before,
+  input.dob_input:focus:before,
+  input.dob_input:active:before {
+    display: none;
+  }
+
+
+  /* bar_section */
+  .bar_slide_section .customer_content:after{
+      content: none;
+  }
+  .bar_slide_section .customer_content:before{
+      content: none;      
+  }
+  .bar_slide_section.customers_sec{
+      padding: 0;
+  }
+  .bar_slide_section.customers_sec {
+    background-color: #f5f5f5;
+    background-image: url(../images/offers/leafs-bg.png);
+    background-size: 300px 500px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 0px 0 100px 0;
+}
+.bar_fitness_contect.fitness_content {
+    background-color: #f5f5f5;
+    background-image: none;
+}
+.dark_join_sec{
+    background-color: #383939;
+}
+.bar_slide_section img{
+    object-fit: cover;
+}
+
+
+
+
+
+.footer_contact_sec_menu h5{
+    margin-bottom: 13px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.footer_contact_sec_menu .menu_link li a{
+    color: #000000;
+}
+/* .footer_contact_sec_menu{
+    padding: 50px 20px;
+} */
+.footer_contact_sec_menu .menu_link{
+    padding: 0 0 25px 0;
+    margin: 0 0 35px 0;
+}
+.footer_contact_sec_menu .menu_link li img{
+    display: inline-flex;
+}
+.footer_contact_sec_menu .menu_link li .inner-link{
+    display: inline-flex;
+}
+.footer_contact_sec_menu .menu_link .inner_link{
+    max-width: 190px;
+    display: inline-flex;
+    padding: 0 0px 12px 15px;
+}
+.footer_contact_sec_menu li a{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    color: #000000;
+}
+.footer_contact_sec_menu ul {
+    padding-left: 0;
+}
+
+ .footer_contact_sec_menu li {
+    list-style: none;
+}
+.footer_contact_sec_menu ul{
+    padding-left: 10px;
+}
+
+.footer_contact_sec_menu li a{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-decoration:none;
+}
+.footer_contact_sec_menu li a:hover{
+    color:  #326C52;
+}

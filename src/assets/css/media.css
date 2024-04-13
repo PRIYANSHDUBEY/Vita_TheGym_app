@@ -1,0 +1,730 @@
+@media screen and (max-width:2400px){
+}
+body .container{max-width:1200px}
+@media only screen  and (max-width: 1440px){
+
+    .offers_activites .card {
+        z-index: 5;
+    } 
+    .offers_sec:after {
+        max-width: 248px;
+        background-size: contain;   
+    }
+    .about_items:after,
+    .customer_content:after {
+        width: 139px;
+        height: 254px;
+        background-size: contain;
+        right: -30px;
+        bottom: 15px;
+        display:none
+    }
+    .about_items:before,
+    .customer_content:before {
+        width: 250px;
+        height: 150px;
+        background-size: contain;
+        left: -92px;
+        top: -48px;
+    }
+    .footer::before,
+    .footer::after {
+        width: 157px;
+        height: 332px;
+        background-size: contain;
+    }
+    .privacydetails {
+        margin: 0 8%;
+        margin-top: 54px;
+    }
+    /* .offers_activites .card {
+        width: 150px;
+    } */
+    .bg_banner_img {
+        max-width: 600px;
+    }
+    .offers_sec {
+        background-size: 260px 380px;
+    }
+    .fitness_content_2 {
+        background-image: none;
+    }
+    /* .top_sec h4 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+    
+    .top_sec h2 {
+        font-size: 60px;
+        line-height: 70px;
+    } */
+    .top_sec p {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    /* Fitness Page */
+    .group_fit_sec,
+    .milon_sec{
+    background-size: 10%;
+    }
+    .footer_banner,
+    .footer {
+        background-size: 10%;
+    }
+    .personal_tranning_sec{
+    background-size: 20%;
+    }
+
+/* .news_card_section */
+    .news_card_section .card{
+        height: 590px;
+    }
+    .news_card_section.all_news_section .card{
+        height: 100%;
+    }
+    .fitness_content {
+    background-size: 280px 320px;
+} 
+}
+@media (min-width:1370px){
+.hero_image{width:970px;height:850px}
+}
+@media (max-width:1369px){
+.hero_image{height:600px}
+    .milon_sec {
+       background-size:4%;
+    }
+    .fitnesss_content{
+        background-size:10%;
+    }
+    .home_top .top_sec h4 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .home_top .top_sec h2 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+}
+@media only screen  and (max-width: 1199px){
+    
+    .top_sec {
+        max-width: 530px;
+        left: calc(35% - 260px);
+    }
+    .about_img_card{
+        width: 260px;
+    }
+    .about_img_card:after {
+        max-width: 320px;
+    }
+    .about_content {
+        position: absolute;
+        width: 100%;
+        bottom: -225px;
+    }
+    .offers_activites .card:nth-child(2n) {
+        margin-top: 20px;
+    }
+
+    .vitaclasses .card_tab:nth-child(1n) {
+        margin-right: 10px;
+    }
+    .vitaclasses .card_tab {
+        margin-right: 0px;
+    }
+    .vitanews,
+    .vitaclasses {
+        padding: 0 10px;
+    }
+    .privacydetails {
+        margin: 0 12%;
+    }
+    /* contact_section */
+    .job_opp_box h4{
+        font-size: 20px;
+    }
+    .job_opp_box p{
+        font-size: 15px;
+    }
+    .job_opp_box a{
+        font-size: 15px;
+    }
+    /* fitness_content */
+    .fitness_content {
+        background-size: 150px 180px;
+        padding: 120px 0;
+    }
+    .fitness_content_img{
+        text-align: center;
+    }
+ /* .membership_section */
+    .member_input_row{
+        display: block;
+    }
+    .membership_form .member_input-col:nth-child(1),
+    .membership_form .member_input-col:last-child,
+    .membership_form .member_input-col,
+    .membership_form .vita_btn {
+        margin: 0 auto !important;
+    }
+    .membership_contact_section .bg_white{
+        width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    }
+}
+@media (max-width:991px){
+    .hero_image{height:600px;width:100%;object-fit:contain;object-position:bottom right;transform:translate(15px)}
+    .top_sec{max-width:800px;position:initial;text-align:center;margin: 20px auto 0;padding:30px 15px}
+    .bk_img {
+        min-height: 500px;
+    }
+    /* .navbar-collapse {
+        width: 95% !important;
+    } */
+    .vita_btn .btn_style, .vita_btn .btn_style-2 {
+        max-width: 200px;
+    }
+    .vita_header .dropdown-menu {
+        width: 100%;
+        text-align: center;
+    }
+    .about_img_card {
+        width: 210px;
+    }
+    .about_content {
+        bottom: -175px;
+    }
+    .about_content p {
+        font-size: 15px;
+        line-height: 16px;
+        margin-bottom: 13px;
+    }
+    .about_content h5 {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 9px;
+    }
+
+    .offers_sec{
+        margin-top: 50px;
+    }
+    .vitaclasses{
+        margin: 50px auto;
+    }
+    .join_sec,
+    .customers_sec,
+    .offers_sec,
+    .about_sec {
+        padding: 50px 0;
+    }
+    .footer{
+        padding-top: 50px;
+    }
+    .vita_offers {
+        padding-left: 0;
+        padding-top: 40px;
+     }
+    .offers_activites {
+        padding: 50px 0px;
+    }
+    .offers_gellery img {
+        margin-top: -100px;
+    }
+    .navbar-collapse {
+        background-color: #383939;
+        width: 100%;
+        border: 0;
+        border-radius: 20px;
+        color: #000;
+        padding: 40px 0;
+        margin-top: 20px;
+        position: absolute;
+        top: 65px;
+        z-index: 22;
+        left: 0;
+    }
+    .navbar-light .navbar-nav .show>.nav-link{
+        color: #000!important;
+    }
+    .vita_header .nav-item .nav-link{
+        text-align: center;
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+    }
+    .vita_header .nav-link.active:before {
+        left: calc(49% - 8px);
+    }
+    .navbar-light .navbar-nav .nav-link.active{
+        color: #e1bc54!important;
+    }
+    .offers_activites .card:nth-child(2n){
+        margin-top: 5px;
+    }
+    .offers_activites .card:hover ,
+    .offers_activites .card:hover:nth-child(2n) {
+        margin-top: 5px;
+    }
+    /* Fitness Page */
+    .group_fitness_img,.milon_img,.parsonal_train_img {
+        padding-bottom: 20px;
+    }
+    .fitnesss_content{
+        padding: 50px 0 !important;
+        background-size: 20%;
+    }
+    .group_fit_se{
+        background-color: #E5E5E5;
+    }
+    .fitnesss_content_detail h2 {
+        margin-bottom: 15px;
+    }
+    .fitnesss_content_detail p {
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    /* .milon_list, */
+    /* .fitnesss_content_detail{
+        padding-left: 20px;
+    } */
+    .fitnesss_content_img{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .fitnesss_content_img:after{
+        background-image: unset;
+    }
+    .tab_card {
+        width: 100%;
+    }
+    .fitness_content .tab_card {
+        width: 100%;
+        max-width: 100%;
+    }
+    #group_fitness .fitness_content_detail{
+        margin-top: 30px;
+        /* text-align: center; */
+    }
+
+/* #contact_page */
+    .timimg_list li {
+        display: block;
+    }
+    .timimg_list_points{
+        margin-left: 0;
+    }
+    .job_opp_box {
+        display: block;
+    }
+    .job_opp_box p{
+        margin: 0 0 15px 0;
+    }
+/* .news_card_section */
+    .news_card_section .card{
+        height: auto;
+}
+.news_card_section.all_news_section .card{
+    height: auto;
+    padding: 10px 10px;
+}
+/* .job_section .card */
+.job_section .card{
+    padding: 20px 10px;
+    height: 350px;
+}
+.job_section {
+    padding: 50px 0;
+}
+.cv_btn .btn_style {
+    padding: 20px 20px;
+}
+.membership_section {
+    padding: 60px 0 0px 0;
+}
+/* .membership_contact_section{
+    padding: 0 !important;
+} */
+}
+@media only screen  and (max-width: 767px){
+    .about_img_card {
+        width: 350px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .about_img_card:after {
+        max-width: 100%;
+    }
+    .offers_gellery img {
+        max-width: 575px;
+        margin: 0 auto;
+    }
+    .image_top{
+        padding: inherit;
+    }
+    .offers_gellery img {
+        max-width: 575px;
+        margin: 0 auto;
+        margin-top: -100px;
+    }
+    .offers_activites .card {
+        width: 253px;
+        height: auto;
+        margin: 0 auto 20px;
+        display: inline-flex;
+    }
+    .offers_activites {
+        display: block;
+    }
+    /* .footer_menu {
+        width: 225px;
+        text-align: center;
+        margin: 0 auto;
+    } */
+    .footer_menu {
+        width: 150px;
+        /* text-align: center; */
+        margin-left: auto;
+    }
+    .footer_info {
+        margin: 0 auto;
+    }
+    /* fitness_content */
+    .fitness_content {
+        padding: 80px 0 70px 0; 
+    }
+    .fitness_content_2 .fitness_content_detail p {
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
+    .fitness_content_detail {
+        margin-top: 40px;
+        /* text-align: center; */
+    }
+    .fitness_content_2 .squash_booking{
+        margin: 0 0 40px 0;
+    }
+    .fitness_content_2 {
+        padding-top: 20px;
+    }
+    .fitness_content_detail h2 {
+        margin-bottom: 20px;
+    }
+    .fitness_content_detail p {
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+    .fitness_content_img:after {
+        content: none;
+    }
+/* #contact_page */
+    .timimg_list li {
+        display: flex;
+    }
+    .contact_sec_menu{
+        width: 100%;
+    }
+    .timimg_list_points{
+        margin-left: auto;
+    }
+    .job_opp_box {
+        display: flex;
+    }
+    .job_opp_box p{
+        margin: 0 0 0px 0;
+    }
+ 
+    /* .description_contact_section */
+    .description_section h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0px 0 40px 0;
+    }
+    .description_contact_section.contact_section {
+        padding: 0px 0 60px ;
+    }
+    /* .membership_section */
+
+    .home_top .top_sec h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .home_top .top_sec p {
+        font-size: 16px;
+        line-height: 25px;
+        margin: 0 0 20px 0;
+    }
+
+}
+@media (max-width:640px){
+    .hero_image{height:auto}
+     /* Fitness Page */
+    .tab_card.open_tabs,
+    .tab_card.close_tabs {
+        width: 280px;
+        height: auto;
+    }
+    .card_title {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    /* .top_sec {
+        padding-top: 40px;
+    } */
+    .offers_activites {
+        text-align: center;
+    }
+    .footer{
+        position: relative;
+    }
+    .privacydetails {
+        position: absolute;
+        bottom: 25px;
+        z-index: 2;
+        display: none;
+    }
+    .about_items:after,
+    .about_items:before,
+    .customer_content:after,
+    .customer_content:before{
+        display: none;
+    }
+    .footer_info {
+        margin: 0 auto;
+    }
+    /* .footer_menu {
+        width: 225px;
+        text-align: center;
+        margin: 0 auto;
+    } */
+    .footer_menu {
+        max-width: 380px;
+        margin: 0;
+    }
+    .footer .copyright {
+        font-size: 13px;
+    }
+    .about_img_card {
+        width: 290px;
+    }
+    .home_top .top_sec h4 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+
+    .top_sec p {
+        font-size: 16px;
+        line-height: 25px;
+        margin: 0 0 20px 0;
+    }
+    .top_sec h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 0px;
+    }
+
+    .about_content {
+        bottom: -195px;
+    }
+    .about_content h5 {
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 18px;
+    }
+    .about_content p {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 23px;
+    }
+    /* .navbar-collapse {
+       width: 95%;
+    } */
+    .footer{
+        padding-bottom: 0px;
+    }
+    /* fitness_section */
+    /* .fitness_content {
+        background-size: 160px 230px;
+    } */
+
+    .fitness_content_detail h2 {
+        font-size: 32px;
+    }
+    .fitness_content_2 {
+        padding: 40px 0;
+    }
+    .fitness_content_2 .fitness_content_detail h2 {
+        font-size: 32px;
+    }
+    .vita_title {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0;
+    }
+    .vita_offers h2 {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 0px 0 20px 0;
+    }
+    .vita_offers p {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0 0 0px 0;
+    }
+    .vita_about p {
+        font-size: 18px;
+        line-height: 28px;
+    }    
+    .vita_about h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0 0 20px 0;
+    }
+    .vitajoin h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .vitajoin p {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0 0 30px 0;
+    }
+    /* #contact_page */
+    .contact_section {
+        padding: 50px 0;
+    }
+    .contact_section .contact_input{
+        display: block;
+    }
+    .contact_section .contact_input .input_col:nth-child(1){
+        margin-right: 0px;
+    }
+    .contact_section .contact_input .input_col:last-child{
+        margin-left: 0px;
+    }
+    .timimg_list li {
+        display: block;
+    }
+    .timimg_list_points{
+        margin-left: 0;
+    }
+    .contact_sec_menu{
+        width: 100%;
+    }
+    .form_bottom {
+        display: block;
+    }
+    .form_bottom .form-check{
+        padding: 0;
+    }
+    .form_bottom .form-check{
+        margin: 10px 0 0 0;
+        display: inline-flex;
+    }
+    .contact_form_sub {
+        padding: 25px 10px;
+    }
+    .job_opp_box {
+        display: block;
+        padding: 10px;
+    }
+    .job_opp_box p{
+        margin: 0 0 15px 0;
+    }
+    /* ///////////////////////////////// */
+    /* .news_card_section */
+    .news_card_section {
+        padding: 30px 0;
+    }
+    .news_card_section .card{
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto 20px;
+    }
+    .all_news_section h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0 0 30px 0;
+    }
+    /* ///////////////////////////////// */
+    /* .job_section */
+    .job_section .card{
+        padding: 20px 10px;
+        height: auto;
+        margin: 0 auto;
+        max-width: 380px;
+    }
+    .job_section h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 30px;
+    }
+    .description_contact_section.contact_section .contact_input .input_col {
+        width: 100%;
+        max-width: 100%;
+    }
+    .cv_btn{
+        display: block;
+    }
+    .cv_btn .btn_style{
+        padding: 20px 0px;
+    } 
+    /* membership_Ssection */
+    .membership_form_sub {
+        padding: 30px 15px;
+    }
+
+    .vita_btn .btn_style, .vita_btn .btn_style-2 {
+        max-width: 180px;
+        font-size: 14px;
+    }
+    .upload-btn-wrapper{
+        display: inline-block;
+    }
+    .upload-btn-wrapper .btn_style{
+        width: 180px;
+    }
+    /* .upload-btn-wrapper {
+        width: 66%;
+    } */
+    .membership_section .member_top_card {
+        padding: 40px 20px;
+    }
+    .membership_section .member_top_card h1 {
+        font-size: 25px;
+        line-height: 35px;
+        margin: 30px 0 0 0;
+    }
+    .membership_section .member_top_card p {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0 0 10px 0;
+    }
+    .membership_section .member_top_card h3 {
+        margin: 0 0 20px 0;
+        font-size: 22px;
+        line-height: 35px;
+    }
+}
+@media only screen and (max-width: 420px){
+    .job_opp_box {
+        padding: 10px;
+    }
+    .job_opp_box h4{
+        font-size: 17px;
+        line-height: 24px;    
+    }
+    .job_opp_box p{
+        font-size: 16px;
+    }
+    .vita_header img.img-fluid {
+        width: 50%;
+    } 
+}
